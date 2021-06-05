@@ -5,17 +5,11 @@ breaking algorithm which inverts gradients of models to reconstruct the input da
 
 In this work, we utilize the inverting gradients algorithm proposed in [Inverting Gradients - How easy is it to break Privacy in Federated Learning?](https://arxiv.org/pdf/2003.14053.pdf) to reconstruct the data that could lead to possible threats in classification task. By stacking one wrongly predicted image into different batch sizes, then use the stacked images as input of the existing gradients inverting algorithm will result in reconstruction of distorted images that can be correctly predicted by the attacked model.
 
-<<<<<<< HEAD
-![demo](image/rec_output.jpg)
-![graph1](graph1.jpg) ![graph2](data/graph2.jpg)
-
-=======
 <p align="center">
   <img src="https://raw.githubusercontent.com/Jiaqi0602/adversarial-attack-from-leakage/main/image/rec_output.JPG" width="400" height="400" align="left"/>
   <img src="https://raw.githubusercontent.com/Jiaqi0602/adversarial-attack-from-leakage/main/image/graph1.jpg" height="200" width="385" align="right"/>
   <img src="https://raw.githubusercontent.com/Jiaqi0602/adversarial-attack-from-leakage/main/image/graph2.jpg" height="200" width="385" align="right"/>
 </p>
->>>>>>> 9de60a6... modify README
 
 ## Prerequisites
 Required libraries:

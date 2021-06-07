@@ -67,8 +67,6 @@ def val_model(dataset, model, criterion):
             val_corrects += torch.sum(preds == labels.data)
             if (preds != labels.data): 
                 index_ls.append(batch_idx)
-            if batch_idx == 100:
-                break
 
         total_loss = val_loss / len(dataset) 
         total_acc = val_corrects.double() / len(dataset)

@@ -110,7 +110,7 @@ for i in range(len(stacked_data_d['gt_img'])):
               lr=0.1, 
               optim='adam',
               restarts=1,
-              max_iterations=200,
+              max_iterations=1200,
               total_variation=0.1,
               init='randn',
               filter='none',

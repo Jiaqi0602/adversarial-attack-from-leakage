@@ -4,7 +4,7 @@
 
 ### Official pytorch implementation of the paper: 
 
-Released on September 16, 2020
+Released on June 16, 2020
 
 ## Description
 

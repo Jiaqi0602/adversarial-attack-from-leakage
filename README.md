@@ -6,7 +6,7 @@
 
 Released on September 16, 2020
 
-## Descciption
+## Description
 
 By utilizing an existing privacy
 breaking algorithm which inverts gradients of models to reconstruct the input data, the data reconstructed from inverting gradients algorithm reveals the vulnerabilities of models in representation learning.

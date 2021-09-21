@@ -1,5 +1,13 @@
 # From Gradient Leakage to Adversarial Attacks in Federated Learning
 
+[PDF](https://ieeexplore.ieee.org/document/9506589)
+
+### Official pytorch implementation of the paper: 
+
+Released on September 16, 2020
+
+## Descciption
+
 By utilizing an existing privacy
 breaking algorithm which inverts gradients of models to reconstruct the input data, the data reconstructed from inverting gradients algorithm reveals the vulnerabilities of models in representation learning.
 
@@ -33,3 +41,24 @@ You can download pretrained model from [HERE](https://github.com/huyvnphan/PyTor
 - [Inverting Gradients - How easy is it to break Privacy in Federated Learning?](https://github.com/JonasGeiping/invertinggradients)
 - [Deep Leakage From Gradients](https://github.com/mit-han-lab/dlg) 
 - [PyTorch models trained on CIFAR-10 dataset](https://github.com/huyvnphan/PyTorch_CIFAR10)
+
+
+## Citation
+If you find this work useful for your research, please cite
+```
+@inproceedings{Gleakage,
+  title={From Gradient Leakage To Adversarial Attacks In Federated Learning},
+  author={Lim, Jia Qi and Chan, Chee Seng},
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},
+  year={2021},
+}
+```
+
+## Feedback
+Suggestions and opinions on this work (both positive and negative) are greatly welcomed. Please contact the authors by sending an email to
+`jiaqi0602 at gmail.com` or `cs.chan at um.edu.my`.
+
+## License and Copyright
+The project is open source under BSD-3 license (see the ``` LICENSE ``` file).
+
+&#169;2021 Universiti Malaya.
